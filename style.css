@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav_bar {
+    width: 100%;
+    height: 60px;
+    background-color: #6F6AF7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.logo {
+    font-family: Delius Unicase;
+    font-size: larger;
+
+}
+
+.links {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.searchbar {
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#searchbar {
+    border: none;
+}
+
+#searchicon {
+    color: rgb(104, 104, 104);
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.upperbox {
+    height: 24.5rem;
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.image {
+    height: 20rem;
+    width: 18rem;
+    background-image: url(images/image\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    box-shadow: 2px 4px 2px 4px #888888
+}
+
+.content {
+    height: 20rem;
+    width: 47rem;
+    border-radius: 12px;
+    padding-left: 30px;
+    background-color: #E5D8FF;
+    box-shadow: 2px 4px 2px 4px #888888;
+    color: #6F7373;
+    text-align: left;
+
+}
+
+.content .para {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    height: 7rem;
+    width: 16rem;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px grey;
+
+}
+
+.card1 {
+
+    background-color: #929DFF;
+}
+
+.card2 {
+
+    background-color: #734CF2;
+}
+
+.card3 {
+
+    background-color: #D288FF;
+}
+
+.card4 {
+
+    background-color: #000000;
+}
+
+.cards p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.underbox {
+    margin: 4rem;
+    height: 30rem;
+    width: 69rem;
+    background-color: #483EFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btns {
+    height: 28rem;
+    width: 18rem;
+    background-color: #483EFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 15px;
+}
+
+.infobox {
+    height: 28rem;
+    width: 40rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.infobox h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 0.11em;
+}
+
+.infobox p {
+    margin-top: 25px;
+    margin-left: 40px;
+    letter-spacing: 0.11em;
+}
+
+.infobox span {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.11em;
+}
+
+.btn {
+    height: 6rem;
+    width: 15rem;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.btn p {
+    margin-top: 2.5rem;
+}
+
+.btn1 {
+    background-color: #BCE0F6;
+    color: #000000;
+
+}
+
+.btn2,
+.btn3 {
+    background-color: #483EFF;
+    border: 3px solid white;
+    color: white;
+}
+
+.contacticon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 8rem;
+    border-radius: 50%;
+    position: fixed;
+    align-self: flex-end;
+    background-color: #ffffff;
+    margin-right: 5rem;
+    background-image: url(images/Vector\ \(1\).svg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.socialmedia {
+
+    position: sticky;
+    float: right;
+    top: 120px;
+    margin-top: 25vh;
+}
+
+.socialmedia img {
+    height: 45px;
+    display: block;
+    width: fit-content;
+}
+
+#buttoninfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: white;
+    margin-left: 500px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
